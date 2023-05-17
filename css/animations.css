@@ -1,0 +1,27 @@
+/* Add modern animations and transitions */
+@keyframes fadeIn {
+    0% {
+       opacity: 0;
+    }
+    100% {
+       opacity: 1;
+    }
+ }
+ 
+ .fade-in {
+    animation: fadeIn 1s ease-in;
+ }
+ 
+ @keyframes slideInFromLeft {
+    0% {
+       transform: translateX(-100%);
+    }
+    100% {
+       transform: translateX(0);
+    }
+ }
+ 
+ .slide-in-left {
+    animation: slideInFromLeft 0.5s ease-out;
+ }
+ 

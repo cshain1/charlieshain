@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact Me</title>
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+   <h3>Contact Information</h3>
+   <p>Email: cshain6@gmail.com</p>
+   <hr>
+   <form id="contact-form" action="submit.php" method="post" enctype="text/plain">
+      <label for="yourName">Your Name:</label>
+      <input type="text" id="yourName" name="yourName"><br>
+      <label for="yourEmail">Your Email:</label>
+      <input type="email" id="yourEmail" name="yourEmail"><br>
+      <label for="yourMessage">Your Message:</label><br>
+      <textarea id="yourMessage" name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" value="Submit">
+   </form>
+
+   <script src="js/contact.js"></script>
+</body>
+</html>
