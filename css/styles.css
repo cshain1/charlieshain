@@ -69,3 +69,10 @@ table,th,td {
    text-align: center;
 }
  
+.top-bar {
+   background-color: #9D8771;
+   color: #FFFFFF;
+   padding: 20px;
+   text-align: center;
+ }
+ 
