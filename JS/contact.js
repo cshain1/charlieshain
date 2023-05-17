@@ -42,13 +42,16 @@
         color: "#333",
         marginBottom: "20px"
       },
-      button: {
-        backgroundColor: "#f5f5f5",
-        color: "#333",
-        padding: "10px 20px",
-        borderRadius: "4px",
-        fontSize: "16px",
-      }
+    buttonStyle: {
+  backgroundColor: "#9D8771",
+  color: "#FFFFFF",
+  border: "none",
+  borderRadius: "4px",
+  padding: "10px 20px",
+  fontSize: "16px",
+  cursor: "pointer",
+},
+
     }
   });
 </script>
