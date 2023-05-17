@@ -46,10 +46,17 @@
         color: "#333",
         marginBottom: "20px"
       },
+      buttonStyle: {
+        backgroundColor: "#9D8771",
+        color: "#FFFFFF",
+        border: "none",
+        borderRadius: "4px",
+        padding: "10px 20px",
+        fontSize: "16px",
+        cursor: "pointer",
+      },
     }
   });
 </script>
-
-
 
  
