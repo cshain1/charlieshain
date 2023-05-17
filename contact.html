@@ -11,15 +11,21 @@
    <h3>Contact Information</h3>
    <p>Email: cshain6@gmail.com</p>
    <hr>
-   <form id="contact-form" action="mailto:cshain6@gmail.com" method="post" enctype="text/plain">
-      <label for="yourName">Your Name:</label>
-      <input type="text" id="yourName" name="yourName"><br>
-      <label for="yourEmail">Your Email:</label>
-      <input type="email" id="yourEmail" name="yourEmail"><br>
-      <label for="yourMessage">Your Message:</label><br>
-      <textarea id="yourMessage" name="yourMessage" rows="10" cols="30"></textarea><br>
-      <input type="submit" value="Submit">
-   </form>
+   <form
+  action="https://formspree.io/f/mwkjzywa"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
    <script src="js/contact.js"></script>
 </body>
