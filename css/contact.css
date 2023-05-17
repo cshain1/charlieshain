@@ -1,1 +1,65 @@
+#contact-form {
+   display: none;
+   animation: slide-in 0.5s ease-in-out forwards;
+}
+
+@keyframes slide-in {
+   0% {
+      opacity: 0;
+      transform: translateY(-20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+/* Modern styling for the form */
+form {
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #F5EBE0;
+   border-radius: 10px;
+}
+
+form label {
+   display: block;
+   margin-bottom: 10px;
+   font-weight: bold;
+   color: #9D8771;
+}
+
+form input,
+form textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #9D8771;
+   border-radius: 5px;
+   font-family: inherit;
+   font-size: 14px;
+}
+
+form textarea {
+   height: 150px;
+   resize: vertical;
+}
+
+form button[type="submit"] {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   margin-top: 20px;
+   background-color: #9D8771;
+   border: none;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: inherit;
+   font-size: 14px;
+   cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+   background-color: #774936;
+}
 
