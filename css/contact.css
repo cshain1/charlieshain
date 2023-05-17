@@ -1,26 +1,20 @@
-#contact-form {
-   display: none;
-   animation: slide-in 0.5s ease-in-out forwards;
+h3 {
+   text-align: center;
+   color: #9D8771;
+   margin-top: 30px;
 }
 
-@keyframes slide-in {
-   0% {
-      opacity: 0;
-      transform: translateY(-20px);
-   }
-   100% {
-      opacity: 1;
-      transform: translateY(0);
-   }
-}
-
-/* Modern styling for the form */
 form {
    max-width: 400px;
    margin: 0 auto;
    padding: 20px;
    background-color: #F5EBE0;
    border-radius: 10px;
+   text-align: center;
+}
+
+form p {
+   color: #9D8771;
 }
 
 form label {
@@ -28,6 +22,7 @@ form label {
    margin-bottom: 10px;
    font-weight: bold;
    color: #9D8771;
+   text-align: left;
 }
 
 form input,
@@ -38,6 +33,7 @@ form textarea {
    border-radius: 5px;
    font-family: inherit;
    font-size: 14px;
+   margin-bottom: 10px;
 }
 
 form textarea {
