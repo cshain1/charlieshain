@@ -1,90 +1,91 @@
 /* Apply styling to the navigation bar */
 .navbar {
-   background-color: #9D8771;
-   padding: 10px;
-   display: flex;
-   justify-content: flex-end;
- }
+  background-color: #2a66c0;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* Apply styling to the top bar */
+.top-bar {
+  background-color: #2a66c0;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Rest of the existing styles */
+
+body {
+  background-color: #FFFFFF;
+}
+
+h2 {
+  color: #2a66c0;
+}
+
+h3 {
+  color: #2a66c0;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #2a66c0;
+  border-width: 5px;
+  width: 5%;
+}
+
+.section-1 {
+  background-color: #FFFFFF;
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-2 {
+  background-color: #FFFFFF;
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  list-style-position: inside;
+}
+
+table, th, td {
+  border: 1px solid #2a66c0;
+  border-collapse: collapse;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+}
+
+.section-3 {
+  text-align: center;
+}
+
+.section-4 {
+  text-align: center;
+}
+
+.coming-soon {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  color: #2a66c0;
+}
  
- .navbar a {
-   color: #FFFFFF;
-   text-decoration: none;
-   margin-left: 10px;
- }
- 
- /* Apply styling to the top bar */
- .top-bar {
-   background-color: #9D8771;
-   color: #FFFFFF;
-   padding: 20px;
-   text-align: center;
- }
- 
- /* Rest of the existing styles */
- 
- body {
-   background-color: #F5EBE0;
- }
- 
- h2 {
-   color: #9D8771;
- }
- 
- h3 {
-   color: #9D8771;
- }
- 
- hr {
-   border-style: none;
-   border-top-style: dotted;
-   border-color: #9D8771;
-   border-width: 5px;
-   width: 5%;
- }
- 
- .section-1 {
-   background-color: #F5EBE0;
-   font-size: medium;
-   font-family: "Times New Roman", Times, serif;
-   font-weight: bold;
-   text-align: center;
- }
- 
- .section-2 {
-   background-color: #F5EBE0;
-   font-size: medium;
-   font-family: "Times New Roman", Times, serif;
-   font-weight: bold;
-   text-align: center;
-   list-style-position: inside;
- }
- 
- table, th, td {
-   border: 1px solid #9D8771;
-   border-collapse: collapse;
-   font-family: 'Times New Roman', Times, serif;
-   font-size: medium;
-   font-weight: bold;
-   padding: 5px;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   background-color: #F5EBE0;
- }
- 
- .section-3 {
-   text-align: center;
- }
- 
- .section-4 {
-   text-align: center;
- }
- 
- .coming-soon {
-   font-size: 50px;
-   font-family: "Times New Roman", Times, serif;
-   font-weight: bold;
-   text-align: center;
-   color: #9D8771;
- }
  

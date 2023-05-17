@@ -1,5 +1,5 @@
 // Change the background color of the body
-document.body.style.backgroundColor = "#F5EBE0";
+document.body.style.backgroundColor = "#FFFFFF";
 
 // Change the color of h2 and h3 elements
 var headings = document.querySelectorAll("h2, h3");
