@@ -5,31 +5,45 @@
   /* customize formbutton below*/     
   formbutton("create", {
     action: "https://formspree.io/f/mwkjzywa",
-    title: "Contact me:",
+    title: "Get in Touch:",
     fields: [
       { 
+        type: "name", 
+        label: "Your name:", 
+        name: "name",
+        required: true,
+        placeholder: "Your name"
+      },
+      { 
         type: "email", 
-        label: "Email:", 
+        label: "Your email:", 
         name: "email",
         required: true,
-        placeholder: "your@email.com"
+        placeholder: "Your email"
       },
       {
         type: "textarea",
-        label: "Message:",
+        label: "Your message:",
         name: "message",
-        placeholder: "What's on your mind?",
+        placeholder: "Type your message",
       },
       { type: "submit" }      
     ],
     styles: {
       title: {
-        backgroundColor: "gray"
+        backgroundColor: "#f5f5f5",
+        color: "#333",
+        marginBottom: "20px"
       },
       button: {
-        backgroundColor: "gray"
+        backgroundColor: "#4CAF50",
+        color: "white",
+        padding: "10px 20px",
+        borderRadius: "4px",
+        fontSize: "16px",
       }
     }
   });
 </script>
+
  
