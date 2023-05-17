@@ -36,7 +36,7 @@
         marginBottom: "20px"
       },
       button: {
-        backgroundColor: "#4CAF50",
+        backgroundColor: "#9D8771",
         color: "white",
         padding: "10px 20px",
         borderRadius: "4px",
