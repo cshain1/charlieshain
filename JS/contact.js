@@ -46,7 +46,7 @@
         color: "#333",
         marginBottom: "20px"
       },
-      buttonStyle: {
+      button: {
         backgroundColor: "#9D8771",
         color: "#FFFFFF",
         border: "none",
@@ -55,8 +55,9 @@
         fontSize: "16px",
         cursor: "pointer",
       },
-    }
+    },
   });
 </script>
+
 
  

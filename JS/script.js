@@ -52,3 +52,27 @@ section3.style.textAlign = "center";
 
 var section4 = document.querySelector(".section-4");
 section4.style.textAlign = "center";
+
+// Additional styling for the navigation bar
+var navbar = document.createElement("div");
+navbar.classList.add("navbar");
+
+var homeLink = createNavbarLink("Home", "index.html");
+var contactLink = createNavbarLink("Contact", "contact.html");
+var blogLink = createNavbarLink("Blog", "blog.html");
+
+navbar.appendChild(homeLink);
+navbar.appendChild(contactLink);
+navbar.appendChild(blogLink);
+
+document.body.insertBefore(navbar, document.body.firstChild);
+
+function createNavbarLink(text, url) {
+   var link = document.createElement("a");
+   link.href = url;
+   link.textContent = text;
+   link.style.color = "#FFFFFF";
+   link.style.textDecoration = "none";
+   link.style.marginLeft = "10px";
+   return link;
+}
