@@ -5,7 +5,7 @@
   /* customize formbutton below*/     
   formbutton("create", {
     action: "https://formspree.io/f/mwkjzywa",
-    title: "Get in Touch:",
+    title: "Get in touch:",
     fields: [
       { 
         type: "name", 
@@ -27,7 +27,14 @@
         name: "message",
         placeholder: "Type your message",
       },
-      { type: "submit" }      
+      { 
+        type: "submit",
+        backgroundColor: "#f5f5f5",
+        color: "#333",
+        padding: "10px 20px",
+        borderRadius: "4px",
+        fontSize: "16px",
+      }      
     ],
     styles: {
       title: {
@@ -36,8 +43,8 @@
         marginBottom: "20px"
       },
       button: {
-        backgroundColor: "#9D8771",
-        color: "white",
+        backgroundColor: "#f5f5f5",
+        color: "#333",
         padding: "10px 20px",
         borderRadius: "4px",
         fontSize: "16px",
@@ -45,5 +52,6 @@
     }
   });
 </script>
+
 
  
